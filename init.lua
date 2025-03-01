@@ -52,7 +52,6 @@ if vim.g.neovide then
     vim.g.neovide_scroll_animation_length = 0.4
     vim.g.neovide_hide_mouse_when_typing = true
     vim.g.neovide_confirm_quit = true
-    vim.g.neovide_fullscreen = true
     vim.g.neovide_input_use_logo = true
     vim.g.neovide_touch_deadzone = 6.0
     vim.g.neovide_touch_drag_timeout = 0.3
