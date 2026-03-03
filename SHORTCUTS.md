@@ -165,15 +165,16 @@
 ### Claude Code (claudecode.nvim)
 | Shortcut | Action | Plugin |
 |----------|--------|--------|
-| `<leader>ac` | Toggle Claude terminal | claudecode |
-| `<leader>af` | Focus Claude terminal | claudecode |
-| `<leader>ar` | Resume Claude session | claudecode |
-| `<leader>aC` | Continue Claude conversation | claudecode |
-| `<leader>am` | Select Claude model | claudecode |
-| `<leader>ab` | Add current buffer to context | claudecode |
-| `<leader>as` | Send visual selection to Claude | claudecode |
-| `<leader>aa` | Accept Claude's diff | claudecode |
-| `<leader>ad` | Deny Claude's diff | claudecode |
+| `<leader>cc` | Toggle Claude terminal | claudecode |
+| `<leader>cf` | Focus Claude terminal | claudecode |
+| `<leader>cr` | Resume Claude session | claudecode |
+| `<leader>cC` | Continue Claude conversation | claudecode |
+| `<leader>cm` | Select Claude model | claudecode |
+| `<leader>cab` | Add current buffer to context | claudecode |
+| `<leader>cas` | Send visual selection to Claude | claudecode |
+| `<leader>caf` | Add file from tree | claudecode |
+| `<leader>cda` | Accept Claude's diff | claudecode |
+| `<leader>cdd` | Deny Claude's diff | claudecode |
 
 ---
 
@@ -337,8 +338,11 @@ The leader key is typically set to `<Space>` or `\` - check your `init.lua` for 
 3. Or search by key (e.g., "<leader>f", "<C-", "<F")
 
 **Common prefixes:**
-- `<leader>a` - AI/Claude Code operations
-- `<leader>c` - Copilot Chat operations
+- `<leader>c` - Claude Code & Copilot Chat operations
+  - `<leader>cc` - Claude Code commands (cc, cf, cr, cm)
+  - `<leader>ca` - Claude Add context (cab, cas, caf)
+  - `<leader>cd` - Claude Diffs (cda, cdd)
+  - `<leader>ce/cr/cf/co/cd/ct` - Copilot Chat (explain, review, fix, optimize, docs, tests)
 - `<leader>d` - Django/debugging
 - `<leader>f` - Fuzzy finding (Telescope)
 - `<leader>h` - Harpoon
