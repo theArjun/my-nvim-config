@@ -1,32 +1,77 @@
-# My neovim setup
+# My Neovim Setup
 
-## Plugins used
-1. autopairs - A super powerful autopair plugin for Neovim that supports multiple characters. 
-2. barbar - A tabline plugin with re-orderable, auto-sizing, clickable tabs, icons, nice highlighting, sort-by commands and a magic jump-to-buffer mode.
-3. catpuccin - A theme package.
-4. comments
-5. copilot
-6. debugger
-7. fidget
-8. fugitive
-9. gitsigns
-10. lsp
-11. neo-tree
-12. telescope
-13. tmux-navigator
-14. toggleterm
-15. treesitter
-16. trouble
-17. undotree
-19. wakatime
+A modern, feature-rich Neovim configuration optimized for Python development with AI assistance, LSP integration, and a beautiful UI.
 
+## 📚 Documentation
 
-## Configuration for my nvim setup
+- **[PLUGINS.md](PLUGINS.md)** - Complete list of all plugins with descriptions and features
+- **[SHORTCUTS.md](SHORTCUTS.md)** - Comprehensive keybindings reference
+- **Configuration Files**: `lua/plugins/` - Individual plugin configurations
 
+## ✨ Features
 
-```
+- 🤖 **AI-Powered Coding** - Claude Code & GitHub Copilot integration
+- 🔧 **Full LSP Support** - Intelligent completions, diagnostics, and refactoring
+- 🐍 **Python Development** - Type checking (ty), linting (ruff, flake8), testing (neotest)
+- 🎨 **Beautiful UI** - Catppuccin theme with smooth animations
+- 📁 **Smart Navigation** - Telescope, Harpoon, Neo-tree
+- 🔀 **Git Integration** - GitSigns, worktrees, GitHub (Octo)
+- ⚡ **Fast Startup** - Lazy loading with lazy.nvim
+
+## 🚀 Installation
+
+```bash
+# Clone this configuration
 git clone https://github.com/theArjun/my-nvim-config ~/.config/nvim
+
+# Launch Neovim (plugins will auto-install)
+nvim
 ```
+
+## 📦 Plugin Manager
+
+This setup uses [lazy.nvim](https://github.com/folke/lazy.nvim) for plugin management with:
+- Automatic plugin installation
+- Lazy loading for fast startup
+- Lock file for version consistency
+- Easy updates with `:Lazy sync`
+
+## 🔧 Requirements
+
+- Neovim 0.10.0+
+- Git
+- [ripgrep](https://github.com/BurntSushi/ripgrep) - For telescope grep
+- [Node.js](https://nodejs.org/) - For Copilot
+- Python 3.8+ - For Python development features
+
+### Optional Tools
+
+```bash
+# Python tools
+pip install ty ruff flake8 refurb bandit
+
+# System tools
+brew install ripgrep ctags
+```
+
+## 🎯 Quick Start
+
+After installation:
+
+```vim
+:Lazy              " Manage plugins
+:Mason             " Install LSP servers
+:checkhealth       " Verify setup
+:Telescope         " Fuzzy finder
+```
+
+## 📖 Learn More
+
+- Press `<leader>fk` to search keymaps in Telescope
+- Press `<leader>fh` to search help documentation
+- Check [SHORTCUTS.md](SHORTCUTS.md) for all keybindings
+
+---
 
 ## Sessionizer
 
