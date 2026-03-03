@@ -125,12 +125,42 @@
 ### AI Assistant (Copilot)
 | Shortcut | Action | Plugin |
 |----------|--------|--------|
-| `<Tab>` | Accept suggestion | copilot |
-| Default bindings | - | copilot |
+| `<S-Tab>` | Accept inline suggestion | copilot.vim |
 
 ---
 
 ## AI Assistant
+
+### Copilot Chat (CopilotChat.nvim)
+| Shortcut | Action | Plugin |
+|----------|--------|--------|
+| `<leader>cc` | Toggle Copilot Chat | CopilotChat |
+| `<leader>ce` | Explain code | CopilotChat |
+| `<leader>cr` | Review code | CopilotChat |
+| `<leader>cf` | Fix code issues | CopilotChat |
+| `<leader>co` | Optimize code | CopilotChat |
+| `<leader>cd` | Generate documentation | CopilotChat |
+| `<leader>ct` | Generate tests | CopilotChat |
+| `<leader>cm` | Select AI model | CopilotChat |
+| `<leader>cp` | Select prompt template | CopilotChat |
+| `<leader>cs` | Stop generation | CopilotChat |
+| `<leader>cR` | Reset chat | CopilotChat |
+
+#### In Chat Window
+| Shortcut | Action | Mode |
+|----------|--------|------|
+| `<Tab>` | Trigger/accept completion | Insert |
+| `<C-c>` / `q` | Close chat | Insert/Normal |
+| `<C-l>` | Reset chat | Both |
+| `<C-s>` / `<CR>` | Submit prompt | Insert/Normal |
+| `gr` | Toggle sticky prompt | Normal |
+| `<C-y>` | Accept diff | Both |
+| `gj` | Jump to diff section | Normal |
+| `gq` | Add to quickfix | Normal |
+| `gy` | Yank diff | Normal |
+| `gd` | Show diff | Normal |
+| `gi` | Show chat info | Normal |
+| `gh` | Show help | Normal |
 
 ### Claude Code (claudecode.nvim)
 | Shortcut | Action | Plugin |
@@ -308,6 +338,7 @@ The leader key is typically set to `<Space>` or `\` - check your `init.lua` for 
 
 **Common prefixes:**
 - `<leader>a` - AI/Claude Code operations
+- `<leader>c` - Copilot Chat operations
 - `<leader>f` - Fuzzy finding (Telescope)
 - `<leader>d` - Django/debugging
 - `<leader>h` - Harpoon
