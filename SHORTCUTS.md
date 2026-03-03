@@ -180,11 +180,6 @@
 
 ## Git Integration
 
-### Octo (GitHub Integration)
-| Shortcut | Action | Plugin |
-|----------|--------|--------|
-| `<leader>O` | Open Octo menu | octo |
-
 ### Git Worktree
 | Shortcut | Action | Plugin |
 |----------|--------|--------|

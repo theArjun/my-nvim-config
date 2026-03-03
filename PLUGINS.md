@@ -58,7 +58,6 @@
 |--------|---------|--------------|
 | **gitsigns.nvim** | Git Decorations | Inline git diff signs, blame info, hunk navigation |
 | **git-worktree.nvim** | Git Worktrees | Create, switch, delete worktrees with Telescope integration |
-| **octo.nvim** | GitHub Integration | Manage GitHub issues, PRs, and reviews from Neovim |
 
 ---
 
@@ -159,10 +158,10 @@
 
 | Category | Count |
 |----------|-------|
-| **Total Plugins** | 36+ |
+| **Total Plugins** | 35+ |
 | **AI/Code Assistance** | 3 |
 | **LSP/Completion** | 8 |
-| **Git Integration** | 3 |
+| **Git Integration** | 2 |
 | **UI/Appearance** | 11 |
 | **File Navigation** | 4 |
 | **Python Development** | 4 |
