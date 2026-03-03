@@ -7,6 +7,7 @@
 - [File Management](#file-management)
 - [Buffer Management](#buffer-management)
 - [LSP & Coding](#lsp--coding)
+- [AI Assistant](#ai-assistant)
 - [Git Integration](#git-integration)
 - [Testing & Debugging](#testing--debugging)
 - [Search & Navigation](#search--navigation)
@@ -126,6 +127,23 @@
 |----------|--------|--------|
 | `<Tab>` | Accept suggestion | copilot |
 | Default bindings | - | copilot |
+
+---
+
+## AI Assistant
+
+### Claude Code (claudecode.nvim)
+| Shortcut | Action | Plugin |
+|----------|--------|--------|
+| `<leader>ac` | Toggle Claude terminal | claudecode |
+| `<leader>af` | Focus Claude terminal | claudecode |
+| `<leader>ar` | Resume Claude session | claudecode |
+| `<leader>aC` | Continue Claude conversation | claudecode |
+| `<leader>am` | Select Claude model | claudecode |
+| `<leader>ab` | Add current buffer to context | claudecode |
+| `<leader>as` | Send visual selection to Claude | claudecode |
+| `<leader>aa` | Accept Claude's diff | claudecode |
+| `<leader>ad` | Deny Claude's diff | claudecode |
 
 ---
 
@@ -289,6 +307,7 @@ The leader key is typically set to `<Space>` or `\` - check your `init.lua` for 
 3. Or search by key (e.g., "<leader>f", "<C-", "<F")
 
 **Common prefixes:**
+- `<leader>a` - AI/Claude Code operations
 - `<leader>f` - Fuzzy finding (Telescope)
 - `<leader>d` - Django/debugging
 - `<leader>h` - Harpoon
