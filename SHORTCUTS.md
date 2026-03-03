@@ -131,11 +131,6 @@
 
 ## Git Integration
 
-### LazyGit
-| Shortcut | Action | Plugin |
-|----------|--------|--------|
-| `<leader>lg` | Open LazyGit interface | lazygit |
-
 ### Octo (GitHub Integration)
 | Shortcut | Action | Plugin |
 |----------|--------|--------|
