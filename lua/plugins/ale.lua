@@ -11,7 +11,7 @@ return {
 		-- Set up any ALE linters, fixers, or other options as needed
 		-- Example: Enable specific linters
 		vim.g.ale_linters = {
-			python = { 'ruff', 'flake8', 'refurb', 'bandit'},
+			python = { 'ruff', 'pyright', 'flake8', 'refurb', 'bandit'},
 			-- Add other languages and linters as needed
 		}
 
