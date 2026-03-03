@@ -9,9 +9,9 @@ return {
 
 		-- Additional ALE settings...
 		-- Set up any ALE linters, fixers, or other options as needed
-		-- Example: Enable specific linters
+		-- Note: pyright runs via LSP, so we exclude it here to avoid duplicates
 		vim.g.ale_linters = {
-			python = { 'ruff', 'pyright', 'flake8', 'refurb', 'bandit'},
+			python = { 'ruff', 'flake8', 'refurb', 'bandit'},
 			-- Add other languages and linters as needed
 		}
 
