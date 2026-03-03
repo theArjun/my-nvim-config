@@ -110,16 +110,25 @@
 | `gcA` | Add comment at end of line | Comment.nvim |
 
 ### Treesitter Text Objects
+
+#### Incremental Selection
 | Shortcut | Action | Plugin |
 |----------|--------|--------|
 | `gnn` | Initialize selection | treesitter |
 | `grn` | Expand selection | treesitter |
 | `grc` | Expand to scope | treesitter |
 | `grm` | Shrink selection | treesitter |
-| `af` | Select outer function | treesitter |
-| `if` | Select inner function | treesitter |
-| `ac` | Select outer class | treesitter |
-| `ic` | Select inner class | treesitter |
+
+#### Text Objects (use with operators or visual mode)
+| Text Object | Description | Example Usage |
+|-------------|-------------|---------------|
+| `af` | Outer function | `vaf` (select), `daf` (delete), `caf` (change) |
+| `if` | Inner function | `vif` (select), `dif` (delete), `cif` (change) |
+| `ac` | Outer class | `vac` (select), `dac` (delete), `cac` (change) |
+| `ic` | Inner class | `vic` (select), `dic` (delete), `cic` (change) |
+
+**Note:** Text objects must be preceded by an operator (`d`, `c`, `y`) or visual mode (`v`, `V`).  
+They don't work standalone in normal mode.
 
 ### AI Assistant (Copilot)
 | Shortcut | Action | Plugin |
