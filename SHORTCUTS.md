@@ -185,6 +185,19 @@
 |----------|--------|--------|
 | `<leader>O` | Open Octo menu | octo |
 
+### Git Worktree
+| Shortcut | Action | Plugin |
+|----------|--------|--------|
+| `<leader>gw` | List/switch/delete worktrees | git-worktree |
+| `<leader>gW` | Create new worktree | git-worktree |
+
+#### In Worktree Telescope Window
+| Shortcut | Action |
+|----------|--------|
+| `<Enter>` | Switch to worktree |
+| `<C-d>` | Delete worktree |
+| `<C-f>` | Toggle forcing deletion |
+
 ### GitSigns
 - Configured but keymaps are commented out
 - Provides git diff indicators in sign column
@@ -345,6 +358,7 @@ The leader key is typically set to `<Space>` or `\` - check your `init.lua` for 
   - `<leader>ce/cr/cf/co/cd/ct` - Copilot Chat (explain, review, fix, optimize, docs, tests)
 - `<leader>d` - Django/debugging
 - `<leader>f` - Fuzzy finding (Telescope)
+- `<leader>g` - Git operations (gw for worktrees)
 - `<leader>h` - Harpoon
 - `<leader>n` - Neo-tree
 - `<leader>t` - Testing (tt, tf, ts, to, tm for terminal)

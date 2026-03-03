@@ -36,7 +36,7 @@ return {
 
 		-- Additional Harpoon Keymaps
 		-- Mark the current file or toggle mark
-		vim.keymap.set('n', '<leader>hm', function() harpoon:list():append() end, { desc = "Harpoon: Mark/Unmark File" })
+		vim.keymap.set('n', '<leader>hm', function() harpoon:list():add() end, { desc = "Harpoon: Mark/Unmark File" })
 
 		-- Open the Harpoon menu directly
 		vim.keymap.set('n', '<leader>ha', function() harpoon.ui:toggle_quick_menu(harpoon:list()) end,
