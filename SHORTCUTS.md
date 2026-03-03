@@ -253,11 +253,9 @@
 ### ToggleTerm
 | Shortcut | Action | Plugin |
 |----------|--------|--------|
-| `<leader>tt` | Toggle terminal | toggleterm |
+| `<leader>tm` | Toggle terminal | toggleterm |
 | `<Esc>` | Exit terminal mode | toggleterm |
 | `<C-h/j/k/l>` | Navigate from terminal | toggleterm |
-
-**Note:** `<leader>tt` conflicts with Django Tools test command
 
 ---
 
@@ -266,10 +264,8 @@
 ### Virtual Environment
 | Shortcut | Action | Plugin |
 |----------|--------|--------|
-| `<leader>vs` | Select virtualenv | venv-selector |
+| `<leader>ve` | Select virtualenv | venv-selector |
 | `<leader>vc` | Select cached virtualenv | venv-selector |
-
-**Note:** `<leader>vs` conflicts with vertical split command
 
 ### Linting & Formatting (ALE)
 - **Linters:** ruff, flake8, refurb, bandit
@@ -317,10 +313,11 @@
 ## Conflicts & Notes
 
 ### Key Binding Conflicts
-⚠️ **Conflicts to be aware of:**
-- `<leader>vs` - Both venv-selector and vertical split
-- `<leader>tt` - Both toggleterm and django-tools test
-- `<C-h/j/k/l>` - Shared by tmux-navigator, split navigation, and terminal navigation
+✅ **All conflicts resolved!**
+
+**Note about `<C-h/j/k/l>`:**
+- Intentionally shared by tmux-navigator, split navigation, and terminal navigation
+- Provides consistent navigation across all contexts
 
 ### Leader Key
 The leader key is typically set to `<Space>` or `\` - check your `init.lua` for confirmation.
@@ -342,10 +339,12 @@ The leader key is typically set to `<Space>` or `\` - check your `init.lua` for 
 **Common prefixes:**
 - `<leader>a` - AI/Claude Code operations
 - `<leader>c` - Copilot Chat operations
-- `<leader>f` - Fuzzy finding (Telescope)
 - `<leader>d` - Django/debugging
+- `<leader>f` - Fuzzy finding (Telescope)
 - `<leader>h` - Harpoon
 - `<leader>n` - Neo-tree
+- `<leader>t` - Testing (tt, tf, ts, to, tm for terminal)
+- `<leader>v` - Virtual environment (ve, vc)
 - `<leader>x` - Diagnostics/Trouble
 - `g` - Go-to operations (LSP)
 - `gc` - Comment operations

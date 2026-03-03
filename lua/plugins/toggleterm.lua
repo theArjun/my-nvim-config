@@ -32,7 +32,7 @@ return {
       }
 
       -- Custom keymaps for toggleterm
-      vim.keymap.set('n', '<leader>tt', '<cmd>ToggleTerm<cr>', { desc = 'Toggle terminal' }) -- Toggle terminal
+      vim.keymap.set('n', '<leader>tm', '<cmd>ToggleTerm<cr>', { desc = 'Toggle terminal' }) -- Toggle terminal
       vim.keymap.set('t', '<esc>', [[<C-\><C-n>]], { desc = 'Exit terminal mode' }) -- Exit terminal mode with Esc
       vim.keymap.set('t', '<C-h>', [[<C-\><C-n><C-W>h]], { desc = 'Move to left window' }) -- Navigate to left window
       vim.keymap.set('t', '<C-j>', [[<C-\><C-n><C-W>j]], { desc = 'Move to bottom window' }) -- Navigate to bottom window
