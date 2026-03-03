@@ -9,6 +9,11 @@ return {
       desc = "Diagnostics (Trouble)",
     },
     {
+      "<leader>xf",
+      "<cmd>Trouble diagnostics toggle focus=true<cr>",
+      desc = "Focus Diagnostics (Trouble)",
+    },
+    {
       "<leader>xX",
       "<cmd>Trouble diagnostics toggle filter.buf=0<cr>",
       desc = "Buffer Diagnostics (Trouble)",
@@ -19,9 +24,19 @@ return {
       desc = "Symbols (Trouble)",
     },
     {
+      "<leader>csf",
+      "<cmd>Trouble symbols toggle focus=true<cr>",
+      desc = "Focus Symbols (Trouble)",
+    },
+    {
       "<leader>cl",
       "<cmd>Trouble lsp toggle focus=false win.position=right<cr>",
       desc = "LSP Definitions / references / ... (Trouble)",
+    },
+    {
+      "<leader>clf",
+      "<cmd>Trouble lsp toggle focus=true win.position=right<cr>",
+      desc = "Focus LSP (Trouble)",
     },
     {
       "<leader>xL",
@@ -35,3 +50,4 @@ return {
     },
   },
 }
+

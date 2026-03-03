@@ -232,9 +232,12 @@
 | Shortcut | Action | Plugin |
 |----------|--------|--------|
 | `<leader>xx` | Toggle diagnostics | trouble |
+| `<leader>xf` | Toggle & focus diagnostics | trouble |
 | `<leader>xX` | Toggle buffer diagnostics | trouble |
 | `<leader>cs` | Show document symbols | trouble |
+| `<leader>csf` | Focus document symbols | trouble |
 | `<leader>cl` | Show LSP info | trouble |
+| `<leader>clf` | Focus LSP info | trouble |
 | `<leader>xL` | Show location list | trouble |
 | `<leader>xQ` | Show quickfix list | trouble |
 
