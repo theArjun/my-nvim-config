@@ -11,7 +11,6 @@
 - [Git Integration](#git-integration)
 - [Testing & Debugging](#testing--debugging)
 - [Search & Navigation](#search--navigation)
-- [Terminal](#terminal)
 - [Python Development](#python-development)
 - [UI & Appearance](#ui--appearance)
 - [Miscellaneous](#miscellaneous)
@@ -257,15 +256,6 @@
 
 ---
 
-## Terminal
-
-### ToggleTerm
-| Shortcut | Action | Plugin |
-|----------|--------|--------|
-| `<leader>tm` | Toggle terminal | toggleterm |
-| `<Esc>` | Exit terminal mode | toggleterm |
-| `<C-h/j/k/l>` | Navigate from terminal | toggleterm |
-
 ---
 
 ## Python Development
@@ -356,7 +346,7 @@ The leader key is typically set to `<Space>` or `\` - check your `init.lua` for 
 - `<leader>g` - Git operations (gw for worktrees)
 - `<leader>h` - Harpoon
 - `<leader>n` - Neo-tree
-- `<leader>t` - Testing (tt, tf, ts, to, tm for terminal)
+- `<leader>t` - Testing (tt, tf, ts, to)
 - `<leader>v` - Virtual environment (ve, vc)
 - `<leader>x` - Diagnostics/Trouble
 - `g` - Go-to operations (LSP)

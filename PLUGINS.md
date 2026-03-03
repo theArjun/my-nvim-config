@@ -148,7 +148,6 @@
 
 | Plugin | Purpose | Key Features |
 |--------|---------|--------------|
-| **toggleterm.nvim** | Terminal | Floating terminal with easy toggle |
 | **wakatime.nvim** | Time Tracking | Automatic coding time tracking |
 | **snacks.nvim** | Utilities | Common utilities for other plugins (used by claudecode) |
 
@@ -158,7 +157,7 @@
 
 | Category | Count |
 |----------|-------|
-| **Total Plugins** | 35+ |
+| **Total Plugins** | 34+ |
 | **AI/Code Assistance** | 3 |
 | **LSP/Completion** | 8 |
 | **Git Integration** | 2 |
@@ -166,6 +165,7 @@
 | **File Navigation** | 4 |
 | **Python Development** | 4 |
 | **Testing/Debugging** | 3 |
+| **Utilities** | 2 |
 
 ---
 
