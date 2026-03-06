@@ -109,6 +109,9 @@
 | **nvim-notify** | Notifications | Fancy notification popups |
 | **fidget.nvim** | LSP Progress | LSP progress notifications |
 | **zen-mode.nvim** | Distraction-Free | Focus mode by hiding UI elements |
+| **noice.nvim** | Better UI | Enhanced command line, messages, and LSP progress UI |
+| **dressing.nvim** | Input/Select UI | Better looking UI for vim.ui.input and vim.ui.select |
+| **glance.nvim** | Preview Window | Preview references, definitions, implementations inline |
 
 ---
 
@@ -124,8 +127,8 @@
 | **vim-surround** | Surrounding Text | Change/delete/add surrounding brackets, quotes, tags (cs/ds/ys) |
 | **dial.nvim** | Increment/Decrement | Smart increment/decrement for numbers, booleans, dates |
 | **nvim-spectre** | Find & Replace | Project-wide find and replace with preview |
-| **which-key.nvim** | Keybinding Helper | Interactive keybinding display and assistance |
-| **markdown-preview.nvim** | Markdown Preview | Live markdown preview in browser |
+| **inc-rename.nvim** | Rename with Preview | Live preview while renaming symbols |
+| **mini.nvim** | Mini Utilities | Indentscope, extended text objects (ai), align, split management |
 
 ---
 
@@ -137,6 +140,18 @@
 | **friendly-snippets** | Snippet Collection | Extensive pre-built snippets for multiple languages |
 | **flash.nvim** | Enhanced Motions | Fast motion/jumping with better visual feedback |
 | **aerial.nvim** | Code Outline | Treesitter-based code outline and symbol navigation |
+| **which-key.nvim** | Keybinding Helper | Interactive keybinding display and assistance |
+| **markdown-preview.nvim** | Markdown Preview | Live markdown preview in browser |
+| **telescope-fzf-native.nvim** | Better Telescope Search | Native fzf algorithm for faster fuzzy finding |
+
+---
+
+## Session & Undo Management
+
+| Plugin | Purpose | Key Features |
+|--------|---------|--------------|
+| **persistence.nvim** | Session Management | Auto-save and restore editor sessions with buffers, tabs, position |
+| **undotree** | Undo Tree Visualization | Visualize and navigate the undo history tree |
 
 ---
 
@@ -174,15 +189,16 @@
 
 | Category | Count |
 |----------|-------|
-| **Total Plugins** | 43+ |
+| **Total Plugins** | 51+ |
 | **AI/Code Assistance** | 3 |
 | **LSP/Completion** | 8 |
 | **Git Integration** | 2 |
-| **UI/Appearance** | 11 |
+| **UI/Appearance** | 16 |
 | **File Navigation** | 4 |
 | **Python Development** | 4 |
-| **Editing & Productivity** | 9 |
-| **Snippets & Motions** | 4 |
+| **Editing & Productivity** | 10 |
+| **Snippets & Motions** | 7 |
+| **Session & Undo** | 2 |
 | **Testing/Debugging** | 3 |
 | **Utilities** | 2 |
 

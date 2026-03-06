@@ -305,6 +305,8 @@ They don't work standalone in normal mode.
 | `<leader>ft` | Search in current buffer | telescope |
 | `<leader>fz` | Find registers | telescope |
 
+**Note:** Faster fuzzy finding with native fzf algorithm via telescope-fzf-native.nvim
+
 ### Telescope LSP
 | Shortcut | Action | Plugin |
 |----------|--------|--------|
@@ -313,6 +315,14 @@ They don't work standalone in normal mode.
 | `<leader>fd` | Find definitions | telescope |
 | `<leader>fi` | Find implementations | telescope |
 | `<leader>fr` | Find references | telescope |
+
+### Glance (Preview Window)
+| Shortcut | Action | Plugin |
+|----------|--------|--------|
+| `gp` | Preview references | glance.nvim |
+| `gd` | Preview definitions | glance.nvim |
+| `gy` | Preview type definitions | glance.nvim |
+| `gm` | Preview implementations | glance.nvim |
 
 ### Trouble (Diagnostics)
 | Shortcut | Action | Plugin |
@@ -338,6 +348,8 @@ They don't work standalone in normal mode.
 
 ## Python Development
 
+## Python Development
+
 ### Virtual Environment
 | Shortcut | Action | Plugin |
 |----------|--------|--------|
@@ -348,6 +360,26 @@ They don't work standalone in normal mode.
 - **Linters:** ruff, flake8, refurb, bandit
 - **Formatter:** ruff_format (auto-format on save)
 - No custom keybindings (runs automatically)
+
+---
+
+## Session & Undo Management
+
+### Session Persistence
+| Shortcut | Action | Plugin |
+|----------|--------|--------|
+| `<leader>qs` | Restore session | persistence.nvim |
+| `<leader>ql` | Restore last session | persistence.nvim |
+| `<leader>qd` | Don't save current session | persistence.nvim |
+
+**Features:** Auto-saves buffer layout, tabs, window size, cursor position
+
+### Undo Tree
+| Shortcut | Action | Plugin |
+|----------|--------|--------|
+| `<leader>ut` | Toggle undo tree | undotree |
+
+**Features:** Visualize and navigate the complete undo history
 
 ---
 
@@ -372,9 +404,14 @@ They don't work standalone in normal mode.
 - **Neoscroll** - Smooth scrolling
 - **Wilder** - Enhanced command line UI
 
----
+### Renaming with Preview (inc-rename)
+| Shortcut | Action | Plugin |
+|----------|--------|--------|
+| `<leader>rn` | Rename with live preview | inc-rename.nvim |
 
-## Miscellaneous
+**Features:** Shows rename preview in command line before confirming
+
+---
 
 ### Plugins Without Custom Keybindings
 - **Autopairs** - Automatically closes brackets/quotes
@@ -384,6 +421,10 @@ They don't work standalone in normal mode.
 - **Todo-comments** - Highlights TODO, FIXME, etc.
 - **Vim-illuminate** - Highlights word under cursor
 - **Wakatime** - Automatic time tracking
+- **Noice** - Better UI for command line/messages (works automatically)
+- **Dressing** - Better input/select UI (works automatically)
+- **Mini.nvim** - Indentscope, AI text objects, align (works automatically)
+- **Telescope-fzf-native** - Better fuzzy search (works automatically)
 
 ---
 
@@ -426,12 +467,15 @@ The leader key is typically set to `<Space>` or `\` - check your `init.lua` for 
 - `<leader>h` - Harpoon
 - `<leader>md` - Markdown preview
 - `<leader>n` - Neo-tree
+- `<leader>q` - Session management (qs, ql, qd, ut for undo)
+- `<leader>rn` - Rename with preview
 - `<leader>S` - Spectre (find & replace)
 - `<leader>t` - Testing (tt, tf, ts, to)
+- `<leader>ut` - Undo tree
 - `<leader>v` - Virtual environment (ve, vc)
 - `<leader>x` - Diagnostics/Trouble
 - `<leader>z` - Zen mode
-- `g` - Go-to operations (LSP)
+- `g` - Go-to operations (LSP, glance: gp, gd, gy, gm)
 - `gc` - Comment operations
 - `gr` - References/Treesitter
 
