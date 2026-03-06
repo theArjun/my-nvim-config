@@ -9,6 +9,8 @@
 - [LSP & Coding](#lsp--coding)
 - [AI Assistant](#ai-assistant)
 - [Git Integration](#git-integration)
+- [Snippets & Motion](#snippets--motion)
+- [Find & Replace](#find--replace)
 - [Testing & Debugging](#testing--debugging)
 - [Search & Navigation](#search--navigation)
 - [Python Development](#python-development)
@@ -92,8 +94,9 @@
 ### Code Completion (nvim-cmp)
 | Shortcut | Action | Plugin |
 |----------|--------|--------|
-| `<C-k>` | Previous suggestion | nvim-cmp |
-| `<C-j>` | Next suggestion | nvim-cmp |
+| `<C-k>` | Snippet expand or jump previous | luasnip |
+| `<C-l>` | Snippet jump next | luasnip |
+| `<C-j>` | Snippet jump previous (visual/select mode) | luasnip |
 | `<C-b>` | Scroll documentation up | nvim-cmp |
 | `<C-f>` | Scroll documentation down | nvim-cmp |
 | `<C-Space>` | Trigger completion | nvim-cmp |
@@ -108,6 +111,42 @@
 | `gcO` | Add comment above | Comment.nvim |
 | `gco` | Add comment below | Comment.nvim |
 | `gcA` | Add comment at end of line | Comment.nvim |
+
+### Surrounding Text (vim-surround)
+| Shortcut | Action | Plugin |
+|----------|--------|--------|
+| `cs<old><new>` | Change surrounding chars/tags | vim-surround |
+| `ds<char>` | Delete surrounding chars/tags | vim-surround |
+| `ys<motion><char>` | Add surrounding chars/tags | vim-surround |
+| `S<char>` | Add surrounding in visual mode | vim-surround |
+
+### Incrementing/Decrementing (dial.nvim)
+| Shortcut | Action | Plugin |
+|----------|--------|--------|
+| `<C-a>` | Increment number/boolean/date | dial.nvim |
+| `<C-x>` | Decrement number/boolean/date | dial.nvim |
+| `g<C-a>` | Increment all selected (visual) | dial.nvim |
+| `g<C-x>` | Decrement all selected (visual) | dial.nvim |
+
+### Code Outline (Aerial)
+| Shortcut | Action | Plugin |
+|----------|--------|--------|
+| `<leader>a` | Toggle code outline | aerial.nvim |
+| `{` (in outline) | Jump to previous symbol | aerial.nvim |
+| `}` (in outline) | Jump to next symbol | aerial.nvim |
+
+### Enhanced Motion (flash.nvim)
+| Shortcut | Action | Plugin |
+|----------|--------|--------|
+| `s` | Jump to character (enhanced) | flash.nvim |
+| `S` | Jump using treesitter nodes | flash.nvim |
+| `r` (operator pending) | Remote operation target | flash.nvim |
+
+### Keybinding Helper (which-key.nvim)
+| Shortcut | Action | Plugin |
+|----------|--------|--------|
+| `<leader>` + wait | Show available keybindings | which-key |
+| (auto-display) | Displays hints after 300ms | which-key |
 
 ### Treesitter Text Objects
 
@@ -207,7 +246,37 @@ They don't work standalone in normal mode.
 
 ---
 
-## Testing & Debugging
+## Snippets & Motion
+
+### LuaSnip (Snippet Engine)
+| Shortcut | Action | Plugin |
+|----------|--------|--------|
+| `<C-k>` | Expand snippet or jump to next point | luasnip |
+| `<C-l>` | Jump to next point in snippet | luasnip |
+| `<C-j>` | Jump to previous point in snippet | luasnip |
+
+**Usage:** Create snippets with jump points using friendly-snippets collection. Supports choice nodes, dynamic text, and multiple languages.
+
+---
+
+## Find & Replace
+
+### Spectre (Project Find & Replace)
+| Shortcut | Action | Plugin |
+|----------|--------|--------|
+| `<leader>S` | Toggle Spectre panel | nvim-spectre |
+| `<leader>sw` | Search current word | nvim-spectre |
+| `<leader>sw` (visual) | Search current selection | nvim-spectre |
+| `<leader>sp` | Search in current file | nvim-spectre |
+
+**Usage:** Type search pattern, edit replacement, and commit changes across files with preview.
+
+### Markdown Preview
+| Shortcut | Action | Plugin |
+|----------|--------|--------|
+| `<leader>md` | Toggle markdown preview | markdown-preview |
+
+---
 
 ### Django Tools
 | Shortcut | Action | Plugin |
@@ -345,6 +414,7 @@ The leader key is typically set to `<Space>` or `\` - check your `init.lua` for 
 3. Or search by key (e.g., "<leader>f", "<C-", "<F")
 
 **Common prefixes:**
+- `<leader>a` - Aerial outline/navigation
 - `<leader>c` - Claude Code & Copilot Chat operations
   - `<leader>cc` - Claude Code commands (cc, cf, cr, cm)
   - `<leader>ca` - Claude Add context (cab, cas, caf)
@@ -354,15 +424,18 @@ The leader key is typically set to `<Space>` or `\` - check your `init.lua` for 
 - `<leader>f` - Fuzzy finding (Telescope)
 - `<leader>g` - Git operations (gw for worktrees)
 - `<leader>h` - Harpoon
+- `<leader>md` - Markdown preview
 - `<leader>n` - Neo-tree
+- `<leader>S` - Spectre (find & replace)
 - `<leader>t` - Testing (tt, tf, ts, to)
 - `<leader>v` - Virtual environment (ve, vc)
 - `<leader>x` - Diagnostics/Trouble
+- `<leader>z` - Zen mode
 - `g` - Go-to operations (LSP)
 - `gc` - Comment operations
 - `gr` - References/Treesitter
 
 ---
 
-**Last Updated:** 2026-03-03
+**Last Updated:** 2026-03-06
 **Config Location:** `/Users/arjun.adhikari/workspace/misc/my-nvim-config/`

@@ -12,6 +12,7 @@
 - [Python Development](#python-development)
 - [UI & Appearance](#ui--appearance)
 - [Editing & Productivity](#editing--productivity)
+- [Snippets & Motions](#snippets--motions)
 - [Testing & Debugging](#testing--debugging)
 - [Language-Specific](#language-specific)
 - [Utilities](#utilities)
@@ -120,6 +121,22 @@
 | **vim-illuminate** | Word Highlighting | Highlights other occurrences of word under cursor |
 | **wilder.nvim** | Command Line UI | Enhanced command-line completion UI |
 | **todo-comments.nvim** | TODO Highlights | Highlights TODO, FIXME, NOTE, etc. in code |
+| **vim-surround** | Surrounding Text | Change/delete/add surrounding brackets, quotes, tags (cs/ds/ys) |
+| **dial.nvim** | Increment/Decrement | Smart increment/decrement for numbers, booleans, dates |
+| **nvim-spectre** | Find & Replace | Project-wide find and replace with preview |
+| **which-key.nvim** | Keybinding Helper | Interactive keybinding display and assistance |
+| **markdown-preview.nvim** | Markdown Preview | Live markdown preview in browser |
+
+---
+
+## Snippets & Motions
+
+| Plugin | Purpose | Key Features |
+|--------|---------|--------------|
+| **LuaSnip** | Snippet Engine | Advanced snippet support with jump points, choice nodes |
+| **friendly-snippets** | Snippet Collection | Extensive pre-built snippets for multiple languages |
+| **flash.nvim** | Enhanced Motions | Fast motion/jumping with better visual feedback |
+| **aerial.nvim** | Code Outline | Treesitter-based code outline and symbol navigation |
 
 ---
 
@@ -157,13 +174,15 @@
 
 | Category | Count |
 |----------|-------|
-| **Total Plugins** | 34+ |
+| **Total Plugins** | 43+ |
 | **AI/Code Assistance** | 3 |
 | **LSP/Completion** | 8 |
 | **Git Integration** | 2 |
 | **UI/Appearance** | 11 |
 | **File Navigation** | 4 |
 | **Python Development** | 4 |
+| **Editing & Productivity** | 9 |
+| **Snippets & Motions** | 4 |
 | **Testing/Debugging** | 3 |
 | **Utilities** | 2 |
 
@@ -221,5 +240,5 @@ Some plugins require external tools:
 
 ---
 
-**Last Updated:** 2026-03-03  
+**Last Updated:** 2026-03-06  
 **Config Maintainer:** Arjun Adhikari
