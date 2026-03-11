@@ -36,7 +36,6 @@
 | Shortcut | Action | Plugin |
 |----------|--------|--------|
 | `<C-s>` | Save current file | Native |
-| `<leader>q` | Close current file | Native |
 
 ---
 
@@ -68,8 +67,9 @@
 |----------|--------|--------|
 | `<Tab>` | Next buffer | barbar |
 | `<S-Tab>` | Previous buffer | barbar |
-| `<leader>bc` | Close current buffer | barbar |
-| `<leader>ba` | Close all buffers | Native |
+| `<leader>bd` | Close current buffer | barbar |
+
+**Note:** Removed `<leader>q` and `<leader>ba` to prevent accidental closes
 
 ---
 
@@ -331,7 +331,7 @@ They don't work standalone in normal mode.
 | `<leader>xf` | Toggle & focus diagnostics | trouble |
 | `<leader>xX` | Toggle buffer diagnostics | trouble |
 | `<leader>cs` | Show document symbols | trouble |
-| `<leader>csf` | Focus document symbols | trouble |
+| `<leader>ts` | Toggle document symbols (focused) | trouble |
 | `<leader>cl` | Show LSP info | trouble |
 | `<leader>clf` | Focus LSP info | trouble |
 | `<leader>xL` | Show location list | trouble |

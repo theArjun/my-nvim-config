@@ -7,13 +7,12 @@ return {
   },
   init = function()
     vim.g.barbar_auto_setup = false
-    -- Define key mappings here. Example:
     local map = vim.api.nvim_set_keymap
     local opts = { noremap = true, silent = true }
     map('n', '<Tab>', ':BufferNext<CR>', opts)
     map('n', '<S-Tab>', ':BufferPrevious<CR>', opts)
-    map('n', '<leader>bc', ':BufferClose<CR>', opts)
-    -- Add more mappings as needed
+    -- Changed from <leader>bc to <leader>bd (consistent with keymaps.lua)
+    map('n', '<leader>bd', ':BufferClose<CR>', opts)
   end,
   opts = {
     sidebar_filetypes = {

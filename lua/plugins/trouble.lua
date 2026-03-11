@@ -24,9 +24,9 @@ return {
       desc = "Symbols (Trouble)",
     },
     {
-      "<leader>csf",
+      "<leader>ts",
       "<cmd>Trouble symbols toggle focus=true<cr>",
-      desc = "Focus Symbols (Trouble)",
+      desc = "Toggle Symbols (Trouble)",
     },
     {
       "<leader>cl",
