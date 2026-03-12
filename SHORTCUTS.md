@@ -7,7 +7,6 @@
 - [File Management](#file-management)
 - [Buffer Management](#buffer-management)
 - [LSP & Coding](#lsp--coding)
-- [AI Assistant](#ai-assistant)
 - [Git Integration](#git-integration)
 - [Snippets & Motion](#snippets--motion)
 - [Find & Replace](#find--replace)
@@ -174,60 +173,6 @@
 
 **Note:** Text objects must be preceded by an operator (`d`, `c`, `y`) or visual mode (`v`, `V`).  
 They don't work standalone in normal mode.
-
-### AI Assistant (Copilot)
-| Shortcut | Action | Plugin |
-|----------|--------|--------|
-| `<S-Tab>` | Accept inline suggestion | copilot.vim |
-
----
-
-## AI Assistant
-
-### Copilot Chat (CopilotChat.nvim)
-| Shortcut | Action | Plugin |
-|----------|--------|--------|
-| `<leader>cc` | Toggle Copilot Chat | CopilotChat |
-| `<leader>ce` | Explain code | CopilotChat |
-| `<leader>cr` | Review code | CopilotChat |
-| `<leader>cf` | Fix code issues | CopilotChat |
-| `<leader>co` | Optimize code | CopilotChat |
-| `<leader>cd` | Generate documentation | CopilotChat |
-| `<leader>ct` | Generate tests | CopilotChat |
-| `<leader>cm` | Select AI model | CopilotChat |
-| `<leader>cp` | Select prompt template | CopilotChat |
-| `<leader>cs` | Stop generation | CopilotChat |
-| `<leader>cR` | Reset chat | CopilotChat |
-
-#### In Chat Window
-| Shortcut | Action | Mode |
-|----------|--------|------|
-| `<Tab>` | Trigger/accept completion | Insert |
-| `<C-c>` / `q` | Close chat | Insert/Normal |
-| `<C-l>` | Reset chat | Both |
-| `<C-s>` / `<CR>` | Submit prompt | Insert/Normal |
-| `gr` | Toggle sticky prompt | Normal |
-| `<C-y>` | Accept diff | Both |
-| `gj` | Jump to diff section | Normal |
-| `gq` | Add to quickfix | Normal |
-| `gy` | Yank diff | Normal |
-| `gd` | Show diff | Normal |
-| `gi` | Show chat info | Normal |
-| `gh` | Show help | Normal |
-
-### Claude Code (claudecode.nvim)
-| Shortcut | Action | Plugin |
-|----------|--------|--------|
-| `<leader>cc` | Toggle Claude terminal | claudecode |
-| `<leader>cf` | Focus Claude terminal | claudecode |
-| `<leader>cr` | Resume Claude session | claudecode |
-| `<leader>cC` | Continue Claude conversation | claudecode |
-| `<leader>cm` | Select Claude model | claudecode |
-| `<leader>cab` | Add current buffer to context | claudecode |
-| `<leader>cas` | Send visual selection to Claude | claudecode |
-| `<leader>caf` | Add file from tree | claudecode |
-| `<leader>cda` | Accept Claude's diff | claudecode |
-| `<leader>cdd` | Deny Claude's diff | claudecode |
 
 ---
 
@@ -462,13 +407,9 @@ The leader key is typically set to `<Space>` or `\` - check your `init.lua` for 
 
 **Common prefixes:**
 - `<leader>a` - Aerial outline/navigation
-- `<leader>c` - Copy/Claude/Copilot
+- `<leader>c` - Copy file path
   - `<leader>cp` - Copy relative file path
   - `<leader>cP` - Copy absolute file path
-  - `<leader>cc` - Claude Code & Copilot Chat (cc, cf, cr, cm)
-  - `<leader>ca` - Claude Add context (cab, cas, caf)
-  - `<leader>cd` - Claude Diffs (cda, cdd)
-  - `<leader>ce/cr/cf/co/cd/ct` - Copilot Chat (explain, review, fix, optimize, docs, tests)
 - `<leader>d` - Django/debugging
 - `<leader>f` - Fuzzy finding (Telescope)
 - `<leader>g` - Git operations (gw for worktrees)

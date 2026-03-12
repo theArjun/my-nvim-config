@@ -4,7 +4,6 @@
 
 ## Table of Contents
 - [Core Plugins](#core-plugins)
-- [AI & Code Assistance](#ai--code-assistance)
 - [LSP & Completion](#lsp--completion)
 - [Git Integration](#git-integration)
 - [File Navigation & Management](#file-navigation--management)
@@ -25,16 +24,6 @@
 |--------|---------|--------------|
 | **lazy.nvim** | Plugin Manager | Lazy loading, automatic updates, lockfile management |
 | **plenary.nvim** | Lua Functions | Common utilities used by many plugins |
-
----
-
-## AI & Code Assistance
-
-| Plugin | Purpose | Key Features |
-|--------|---------|--------------|
-| **claudecode.nvim** | Claude Code Integration | AI-powered coding assistant with IDE integration, diff management, context-aware suggestions |
-| **copilot.vim** | GitHub Copilot | Inline AI code completions, context-aware suggestions |
-| **CopilotChat.nvim** | Copilot Chat Interface | Interactive AI chat, code explanation, review, optimization, test generation |
 
 ---
 
@@ -189,8 +178,7 @@
 
 | Category | Count |
 |----------|-------|
-| **Total Plugins** | 51+ |
-| **AI/Code Assistance** | 3 |
+| **Total Plugins** | 48+ |
 | **LSP/Completion** | 8 |
 | **Git Integration** | 2 |
 | **UI/Appearance** | 16 |
