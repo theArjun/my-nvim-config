@@ -16,3 +16,17 @@ set('n', '<leader>bd', ':bdelete<CR>', { noremap = true, silent = true, desc = '
 
 -- Save file
 set('n', '<C-s>', ':w<CR>', { noremap = true, silent = true, desc = 'Save file' })
+
+-- Copy file paths to clipboard
+set('n', '<leader>cp', function()
+  local filepath = vim.fn.expand('%')
+  vim.fn.setreg('+', filepath)
+  vim.notify('Copied: ' .. filepath, vim.log.levels.INFO)
+end, { noremap = true, silent = true, desc = 'Copy relative file path' })
+
+set('n', '<leader>cP', function()
+  local filepath = vim.fn.expand('%:p')
+  vim.fn.setreg('+', filepath)
+  vim.notify('Copied: ' .. filepath, vim.log.levels.INFO)
+end, { noremap = true, silent = true, desc = 'Copy absolute file path' })
+

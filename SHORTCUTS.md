@@ -37,6 +37,12 @@
 |----------|--------|--------|
 | `<C-s>` | Save current file | Native |
 
+### Copy File Paths
+| Shortcut | Action | Plugin |
+|----------|--------|--------|
+| `<leader>cp` | Copy relative file path to clipboard | Native |
+| `<leader>cP` | Copy absolute file path to clipboard | Native |
+
 ---
 
 ## File Management
@@ -456,8 +462,10 @@ The leader key is typically set to `<Space>` or `\` - check your `init.lua` for 
 
 **Common prefixes:**
 - `<leader>a` - Aerial outline/navigation
-- `<leader>c` - Claude Code & Copilot Chat operations
-  - `<leader>cc` - Claude Code commands (cc, cf, cr, cm)
+- `<leader>c` - Copy/Claude/Copilot
+  - `<leader>cp` - Copy relative file path
+  - `<leader>cP` - Copy absolute file path
+  - `<leader>cc` - Claude Code & Copilot Chat (cc, cf, cr, cm)
   - `<leader>ca` - Claude Add context (cab, cas, caf)
   - `<leader>cd` - Claude Diffs (cda, cdd)
   - `<leader>ce/cr/cf/co/cd/ct` - Copilot Chat (explain, review, fix, optimize, docs, tests)
