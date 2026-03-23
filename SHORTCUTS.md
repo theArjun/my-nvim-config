@@ -229,15 +229,6 @@ They don't work standalone in normal mode.
 
 ---
 
-### Django Tools
-| Shortcut | Action | Plugin |
-|----------|--------|--------|
-| `<leader>djs` | Debug Django server | django-tools |
-| `<leader>tt` | Test nearest function/method | django-tools |
-| `<leader>tf` | Test current file | django-tools |
-| `<leader>ts` | Show test summary | django-tools |
-| `<leader>to` | Show test output | django-tools |
-
 ---
 
 ## Search & Navigation
@@ -410,7 +401,6 @@ The leader key is typically set to `<Space>` or `\` - check your `init.lua` for 
 - `<leader>c` - Copy file path
   - `<leader>cp` - Copy relative file path
   - `<leader>cP` - Copy absolute file path
-- `<leader>d` - Django/debugging
 - `<leader>f` - Fuzzy finding (Telescope)
 - `<leader>g` - Git operations (gw for worktrees)
 - `<leader>h` - Harpoon
@@ -419,7 +409,6 @@ The leader key is typically set to `<Space>` or `\` - check your `init.lua` for 
 - `<leader>q` - Session management (qs, ql, qd, ut for undo)
 - `<leader>rn` - Rename with preview
 - `<leader>S` - Spectre (find & replace)
-- `<leader>t` - Testing (tt, tf, ts, to)
 - `<leader>ut` - Undo tree
 - `<leader>v` - Virtual environment (ve, vc)
 - `<leader>x` - Diagnostics/Trouble

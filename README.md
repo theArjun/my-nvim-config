@@ -12,7 +12,7 @@ A modern, feature-rich Neovim configuration optimized for Python development wit
 
 - 🤖 **AI-Powered Coding** - Claude Code & GitHub Copilot integration
 - 🔧 **Full LSP Support** - Intelligent completions, diagnostics, and refactoring
-- 🐍 **Python Development** - Type checking (ty), linting (ruff, flake8), testing (neotest)
+- 🐍 **Python Development** - Type checking (ty), linting (ruff, flake8)
 - 🎨 **Beautiful UI** - Catppuccin theme with smooth animations
 - 📁 **Smart Navigation** - Telescope, Harpoon, Neo-tree
 - 🔀 **Git Integration** - GitSigns, worktrees, GitHub (Octo)

@@ -78,7 +78,6 @@
 | Plugin | Purpose | Key Features |
 |--------|---------|--------------|
 | **venv-selector.nvim** | Virtual Environment | Auto-detect and select Python virtualenvs |
-| **neotest-python** | Python Testing | Run and debug pytest, Django tests, unittest |
 | **ty** | Type Checking | Fast Python type checker with LSP support |
 | **ale (Python)** | Linting | ruff, flake8, refurb, bandit integration |
 
@@ -149,7 +148,6 @@
 | Plugin | Purpose | Key Features |
 |--------|---------|--------------|
 | **neotest** | Testing Framework | Universal test runner interface |
-| **neotest-python** | Python Tests | pytest, Django test, unittest integration |
 | **django-tools.nvim** | Django Testing | Django-specific test runner and debugging |
 
 ---
@@ -178,12 +176,12 @@
 
 | Category | Count |
 |----------|-------|
-| **Total Plugins** | 48+ |
+| **Total Plugins** | 47+ |
 | **LSP/Completion** | 8 |
 | **Git Integration** | 2 |
 | **UI/Appearance** | 16 |
 | **File Navigation** | 4 |
-| **Python Development** | 4 |
+| **Python Development** | 3 |
 | **Editing & Productivity** | 10 |
 | **Snippets & Motions** | 7 |
 | **Session & Undo** | 2 |
