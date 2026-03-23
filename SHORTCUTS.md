@@ -99,9 +99,6 @@
 ### Code Completion (nvim-cmp)
 | Shortcut | Action | Plugin |
 |----------|--------|--------|
-| `<C-k>` | Snippet expand or jump previous | luasnip |
-| `<C-l>` | Snippet jump next | luasnip |
-| `<C-j>` | Snippet jump previous (visual/select mode) | luasnip |
 | `<C-b>` | Scroll documentation up | nvim-cmp |
 | `<C-f>` | Scroll documentation down | nvim-cmp |
 | `<C-Space>` | Trigger completion | nvim-cmp |
@@ -124,14 +121,6 @@
 | `ds<char>` | Delete surrounding chars/tags | vim-surround |
 | `ys<motion><char>` | Add surrounding chars/tags | vim-surround |
 | `S<char>` | Add surrounding in visual mode | vim-surround |
-
-### Incrementing/Decrementing (dial.nvim)
-| Shortcut | Action | Plugin |
-|----------|--------|--------|
-| `<C-a>` | Increment number/boolean/date | dial.nvim |
-| `<C-x>` | Decrement number/boolean/date | dial.nvim |
-| `g<C-a>` | Increment all selected (visual) | dial.nvim |
-| `g<C-x>` | Decrement all selected (visual) | dial.nvim |
 
 ### Code Outline (Aerial)
 | Shortcut | Action | Plugin |
@@ -199,15 +188,6 @@ They don't work standalone in normal mode.
 
 ## Snippets & Motion
 
-### LuaSnip (Snippet Engine)
-| Shortcut | Action | Plugin |
-|----------|--------|--------|
-| `<C-k>` | Expand snippet or jump to next point | luasnip |
-| `<C-l>` | Jump to next point in snippet | luasnip |
-| `<C-j>` | Jump to previous point in snippet | luasnip |
-
-**Usage:** Create snippets with jump points using friendly-snippets collection. Supports choice nodes, dynamic text, and multiple languages.
-
 ---
 
 ## Find & Replace
@@ -221,11 +201,6 @@ They don't work standalone in normal mode.
 | `<leader>sp` | Search in current file | nvim-spectre |
 
 **Usage:** Type search pattern, edit replacement, and commit changes across files with preview.
-
-### Markdown Preview
-| Shortcut | Action | Plugin |
-|----------|--------|--------|
-| `<leader>md` | Toggle markdown preview | markdown-preview |
 
 ---
 
@@ -307,15 +282,6 @@ They don't work standalone in normal mode.
 
 ## Session & Undo Management
 
-### Session Persistence
-| Shortcut | Action | Plugin |
-|----------|--------|--------|
-| `<leader>qs` | Restore session | persistence.nvim |
-| `<leader>ql` | Restore last session | persistence.nvim |
-| `<leader>qd` | Don't save current session | persistence.nvim |
-
-**Features:** Auto-saves buffer layout, tabs, window size, cursor position
-
 ### Undo Tree
 | Shortcut | Action | Plugin |
 |----------|--------|--------|
@@ -343,7 +309,6 @@ They don't work standalone in normal mode.
 - **Lualine** - Status line
 - **Indent-blankline** - Indentation guides
 - **OneDark** - Color scheme
-- **Neoscroll** - Smooth scrolling
 - **Wilder** - Enhanced command line UI
 
 ### Renaming with Preview (inc-rename)
@@ -358,14 +323,12 @@ They don't work standalone in normal mode.
 ### Plugins Without Custom Keybindings
 - **Autopairs** - Automatically closes brackets/quotes
 - **Fidget** - LSP progress notifications
-- **Flutter-tools** - Dart/Flutter development
 - **NavBuddy** - LSP-powered navigation panel
 - **Todo-comments** - Highlights TODO, FIXME, etc.
 - **Vim-illuminate** - Highlights word under cursor
 - **Wakatime** - Automatic time tracking
 - **Noice** - Better UI for command line/messages (works automatically)
 - **Dressing** - Better input/select UI (works automatically)
-- **Mini.nvim** - Indentscope, AI text objects, align (works automatically)
 - **Telescope-fzf-native** - Better fuzzy search (works automatically)
 
 ---
@@ -404,9 +367,7 @@ The leader key is typically set to `<Space>` or `\` - check your `init.lua` for 
 - `<leader>f` - Fuzzy finding (Telescope)
 - `<leader>g` - Git operations (gw for worktrees)
 - `<leader>h` - Harpoon
-- `<leader>md` - Markdown preview
 - `<leader>n` - Neo-tree
-- `<leader>q` - Session management (qs, ql, qd, ut for undo)
 - `<leader>rn` - Rename with preview
 - `<leader>S` - Spectre (find & replace)
 - `<leader>ut` - Undo tree

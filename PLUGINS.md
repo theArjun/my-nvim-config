@@ -93,7 +93,6 @@
 | **barbar.nvim** | Buffer Bar | Alternative buffer management with icons |
 | **indent-blankline.nvim** | Indentation Guides | Visual indentation guides |
 | **SmoothCursor.nvim** | Cursor Animation | Smooth cursor movement animation |
-| **neoscroll.nvim** | Smooth Scrolling | Smooth scrolling animation |
 | **nvim-notify** | Notifications | Fancy notification popups |
 | **fidget.nvim** | LSP Progress | LSP progress notifications |
 | **zen-mode.nvim** | Distraction-Free | Focus mode by hiding UI elements |
@@ -113,10 +112,8 @@
 | **wilder.nvim** | Command Line UI | Enhanced command-line completion UI |
 | **todo-comments.nvim** | TODO Highlights | Highlights TODO, FIXME, NOTE, etc. in code |
 | **vim-surround** | Surrounding Text | Change/delete/add surrounding brackets, quotes, tags (cs/ds/ys) |
-| **dial.nvim** | Increment/Decrement | Smart increment/decrement for numbers, booleans, dates |
 | **nvim-spectre** | Find & Replace | Project-wide find and replace with preview |
 | **inc-rename.nvim** | Rename with Preview | Live preview while renaming symbols |
-| **mini.nvim** | Mini Utilities | Indentscope, extended text objects (ai), align, split management |
 
 ---
 
@@ -124,12 +121,9 @@
 
 | Plugin | Purpose | Key Features |
 |--------|---------|--------------|
-| **LuaSnip** | Snippet Engine | Advanced snippet support with jump points, choice nodes |
-| **friendly-snippets** | Snippet Collection | Extensive pre-built snippets for multiple languages |
 | **flash.nvim** | Enhanced Motions | Fast motion/jumping with better visual feedback |
 | **aerial.nvim** | Code Outline | Treesitter-based code outline and symbol navigation |
 | **which-key.nvim** | Keybinding Helper | Interactive keybinding display and assistance |
-| **markdown-preview.nvim** | Markdown Preview | Live markdown preview in browser |
 | **telescope-fzf-native.nvim** | Better Telescope Search | Native fzf algorithm for faster fuzzy finding |
 
 ---
@@ -138,7 +132,6 @@
 
 | Plugin | Purpose | Key Features |
 |--------|---------|--------------|
-| **persistence.nvim** | Session Management | Auto-save and restore editor sessions with buffers, tabs, position |
 | **undotree** | Undo Tree Visualization | Visualize and navigate the undo history tree |
 
 ---
@@ -159,7 +152,6 @@
 | **nvim-treesitter** | Syntax Parsing | Better syntax highlighting, code folding, text objects |
 | **nvim-treesitter-textobjects** | Text Objects | Function/class text objects for selection |
 | **nvim-treesitter-context** | Context Display | Show current function/class scope at top |
-| **flutter-tools.nvim** | Flutter Development | Dart/Flutter debugging and tooling |
 
 ---
 
@@ -168,7 +160,6 @@
 | Plugin | Purpose | Key Features |
 |--------|---------|--------------|
 | **wakatime.nvim** | Time Tracking | Automatic coding time tracking |
-| **snacks.nvim** | Utilities | Common utilities for other plugins (used by claudecode) |
 
 ---
 
@@ -176,17 +167,17 @@
 
 | Category | Count |
 |----------|-------|
-| **Total Plugins** | 47+ |
+| **Total Plugins** | 38+ |
 | **LSP/Completion** | 8 |
 | **Git Integration** | 2 |
-| **UI/Appearance** | 16 |
+| **UI/Appearance** | 15 |
 | **File Navigation** | 4 |
 | **Python Development** | 3 |
-| **Editing & Productivity** | 10 |
-| **Snippets & Motions** | 7 |
-| **Session & Undo** | 2 |
+| **Editing & Productivity** | 8 |
+| **Snippets & Motions** | 4 |
+| **Session & Undo** | 1 |
 | **Testing/Debugging** | 3 |
-| **Utilities** | 2 |
+| **Utilities** | 1 |
 
 ---
 
